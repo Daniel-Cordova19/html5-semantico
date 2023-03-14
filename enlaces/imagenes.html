@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listas</title>
+    <title>Imagenes</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon/">
 </head>
 
 <body>
+    <main>
     <header>
-        <h1>Listas</h1>
+        <h1>Imagenes</h1>
         <nav>
             <ul>
                 <li><a href="enlaces/index.html" alt="enlaces"> Enlaces</a></li>
@@ -18,7 +19,7 @@
                 <li><a href="Formularios.html" alt="formulaio">Formularios</a></li>
                 <li><a href="./imagenes.html" alt="imagenes">Imágenes</a></li>
                 <li>Multimedia<ul>
-                        <li>Vídeo</li>
+                    <li><a href="video.html" alt="video">Video</a></li>
                         <li>Audio</li>
                     </ul>
                 <li>HTML5 semántico</li>
@@ -27,23 +28,18 @@
             </ul>
         </nav>
     </header>
-    <h2>Números romanos</h2>
-    <ol type="i">  
-    <li>HTML</li>
-    <li>Java</li>
-    <li>JavaScript</li>
-    <li>SQL</li>
-    </ol>
-    <h2>Orden numérico inverso</h2>
-    <ol reversed>
-        <li>HTML</li>
-        <li>Java</li>
-        <li>JavaScript</li>
-        <li>SQL</li>
-    </ol>
+
+    <h2>Esta imagen se encuentra en la carpeta IMG de este mismo sitio Web. Tiene una altura de 200px</h2>
+    <img src="./img/perrito.jpg" alt="Perrito">
+
+    <h2>Esta imagen es una cualquiera que cambia CADA VEZ que recargamos la página de http://picsum.photos . La imagen debe tener 200px de ancho.</h2>
+    <img src="https://picsum.photos/200" alt="picsum">
+
+    <h2>Esta imagen y texto se consigue con el tag: figure</h2>
+    <img src="./img/elephant-660-480.jpg" alt="elefante">
+    <figcaption> An elephant at sunset</figcaption>
     <footer>
         <p>© SINGULARS 2023 🔥</p>
     </footer>
+</main>
 </body>
-
-</html>
