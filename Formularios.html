@@ -64,8 +64,24 @@
                     <label for="nie">Un Nie</label>
                     <input type="text" id="nie" pattern="[XYZ][0-9]{7}[A-Z]" placeholder="X1234567E">
                 </p>
+                <p>
+                    <label for="hora-formato-24">Hora formato 24h</label>
+                    <input type="text" id="hora-formato-24" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]" placeholder="13:13:13">
+                </p>
+                <p>
+                    <label for="telefono">Telefono</label>
+                    <input type="text" id="telefono"pattern="\+34[\d]{7}|\+34\s[\d]{3}\s[\d]{2}\s[\d]{2}" placeholder="+346666666 | +34 666 66 66">
+                </p>
+                <p>
+                    <label for="fecha">Fecha</label>
+                    <input type="texto" id="fecha" pattern="(0[1-9]|[12][0-9]|3[01])[- \/.](0[1-9]|1[012])[- \/.](19|20)\d\d" placeholder="02-02-2022" title="Pon una fecha correcta DIA-MES-AÑO">
+                </p>
+                <br>
+                <input type="submit" value="Validar todos los campos">
             </fieldset>
         </form>
-
     </main>
+    <footer>
+        <p>© SINGULARS 2023 </p>
+    </footer>
 </body>
